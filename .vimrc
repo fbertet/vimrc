@@ -35,7 +35,8 @@ colorscheme monokai
 set number
 set mouse=a
 set noswapfile
-set hlsearch
+set hlsearch " Highlight search words
+set clipboard=unnamed " Vim clipboard = OSX clipboard
 
 " Change cursor shape between insert and normal mode in iTerm2.app
 if $TERM_PROGRAM =~ "iTerm"
@@ -58,7 +59,10 @@ set expandtab
 autocmd BufWritePre * :%s/\s\+$//e
 :set ruler
 
-
+" Folding
+set foldmethod=indent
+set foldnestmax=1
+set foldlevel=0
 
 " #############################################################################
 " ########################### PLUGINS SETTINGS ################################
@@ -93,7 +97,7 @@ call neomake#configure#automake('nw', 750)
 " #############################################################################
 
 :let mapleader = ","
-nnoremap <Leader>o :Files ~/src/pygame/<CR>
 set backspace=indent,eol,start
-nnoremap <Leader>m :bp<CR>
+nnoremap <Leader>o :Files ~/src/cobra<CR>
+nnoremap M :bp<CR>
 nnoremap L :bn<CR>
