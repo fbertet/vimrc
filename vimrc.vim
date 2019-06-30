@@ -99,5 +99,5 @@ call neomake#configure#automake('nw', 750)
 :let mapleader = ","
 set backspace=indent,eol,start
 nnoremap <Leader>o :Files ~/src/cobra<CR>
-nnoremap M :bp<CR>
-nnoremap L :bn<CR>
+nnoremap L :bp<CR>
+nnoremap M :bn<CR>
