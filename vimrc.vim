@@ -35,7 +35,14 @@ colorscheme monokai
 set number
 set mouse=a
 set noswapfile
+
+" Search options
+set incsearch
 set hlsearch " Highlight search words
+set ignorecase
+set smartcase
+set scrolloff=2
+
 set clipboard=unnamed " Vim clipboard = OSX clipboard
 
 " Change cursor shape between insert and normal mode in iTerm2.app
