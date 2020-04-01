@@ -1,8 +1,8 @@
-# Kwak VimRC
+# VimRC
 
 ## How to
 
-- Close this project in `~/src` folder.
+- Clone this project in `~/src` folder.
 
 - Copy/paste this in your `~/.vimrc` file.
 ```
